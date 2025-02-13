@@ -1,7 +1,7 @@
 namespace RateLimiter.Abstraction;
 
-public class RateLimitationConfigurations
+public class RateLimitationConfiguration
 {
-    public int RateLimit { get; set; } = 100;
-    public int TimeWindowInSeconds { get; set; } = 60;
+    public int Limit { get; set; } = int.MaxValue;
+    public int TimeWindow { get; set; } = int.MaxValue;
 }
