@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{B3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "examples\WebApplication1\WebApplication1.csproj", "{DC5B15FD-3E14-42D8-807F-D2925F254C7A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimiter.Memory.Tests", "tests\RateLimiter.Memory.Tests\RateLimiter.Memory.Tests.csproj", "{6EFE7D73-EB22-46F1-8358-06FD45CB84E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +33,16 @@ Global
 		{DC5B15FD-3E14-42D8-807F-D2925F254C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC5B15FD-3E14-42D8-807F-D2925F254C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC5B15FD-3E14-42D8-807F-D2925F254C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFE7D73-EB22-46F1-8358-06FD45CB84E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFE7D73-EB22-46F1-8358-06FD45CB84E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFE7D73-EB22-46F1-8358-06FD45CB84E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFE7D73-EB22-46F1-8358-06FD45CB84E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DC5B15FD-3E14-42D8-807F-D2925F254C7A} = {B36A84DF-456D-A817-6EDD-3EC3E7F6E11F}
+		{6EFE7D73-EB22-46F1-8358-06FD45CB84E5} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 	EndGlobalSection
 EndGlobal
